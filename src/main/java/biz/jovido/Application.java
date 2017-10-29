@@ -1,4 +1,4 @@
-package biz.jovido.lafenice;
+package biz.jovido;
 
 import biz.jovido.seed.configuration.EnableSeed;
 import biz.jovido.seed.configuration.WebSecurityConfiguration;
@@ -57,8 +57,7 @@ public class Application {
         HostService hostService = applicationContext.getBean(HostService.class);
 
         hostService.getOrCreateHost("localhost");
-
-
+        hostService.getOrCreateHost("jovido.biz");
     }
 
     @PostConstruct
