@@ -65,5 +65,5 @@ springBoot {
 }
 
 jar {
-    archiveName = "jovido-website.${extension}"
+    archiveName = "jovido.${extension}"
 }
